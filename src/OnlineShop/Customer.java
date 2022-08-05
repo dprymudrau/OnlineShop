@@ -3,7 +3,7 @@ package OnlineShop;
 import java.util.ArrayList;
 
 public class Customer {
-    public static ArrayList<String> purchasedItems = new ArrayList<String>();
+    private static ArrayList<String> purchasedItems = new ArrayList<String>();
     public static double totalCost = 0;
 
     protected void getTotalCost(){
